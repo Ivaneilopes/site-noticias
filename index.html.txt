@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meu Portfólio</title>
+  <title>Notícias de Hoje</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Olá, eu sou [Seu Nome]</h1>
-    <p>Desenvolvedor Web | Front-end</p>
+    <h1>Notícias de Hoje</h1>
+    <nav>
+      <a href="#politica">Política</a>
+      <a href="#desporto">Desporto</a>
+      <a href="#tecnologia">Tecnologia</a>
+    </nav>
   </header>
 
-  <section id="sobre">
-    <h2>Sobre mim</h2>
-    <p>Sou um desenvolvedor apaixonado por criar sites e aplicações interativas.</p>
+  <section id="politica">
+    <h2>Política</h2>
+    <article>
+      <h3>Título da notícia</h3>
+      <p>Resumo da notícia política...</p>
+    </article>
   </section>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <ul>
-      <li>🔧 Projeto 1 - <a href="#">Ver mais</a></li>
-      <li>📱 Projeto 2 - <a href="#">Ver mais</a></li>
-    </ul>
+  <section id="desporto">
+    <h2>Desporto</h2>
+    <article>
+      <h3>Campeonato em destaque</h3>
+      <p>Resumo do jogo e resultados...</p>
+    </article>
+  </section>
+
+  <section id="tecnologia">
+    <h2>Tecnologia</h2>
+    <article>
+      <h3>Inovação do dia</h3>
+      <p>Resumo de uma novidade tecnológica...</p>
+    </article>
   </section>
 
   <footer>
-    <p>© 2025 - Todos os direitos reservados</p>
+    <p>&copy; 2025 Notícias de Hoje</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
